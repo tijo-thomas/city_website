@@ -2,7 +2,7 @@ body {
   color: #878787;
   margin: 0;
   font-size: 1em; /* 16px */
-  font-family: Helvetica, Ariel, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Ariel, sans-serif;
   line-height: 1.5;
 }
 
@@ -16,17 +16,14 @@ h1 {
 
 h2{
   font-size: 3.3125em; /* 53px/16px */
-  text-decoration: underline;
   font-weight: normal;
+  line-height: 1.1;
 }
 
 h3 {
   font-size: 1.25em; /* 20px/16px */
   color: #48525c;
-}
-
-p {
-  
+  line-height: 1.2;
 }
 
 
@@ -55,19 +52,7 @@ a:active {
 
 
 /****************************************
- ID Selectors
-****************************************/
-
-#main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: solid 10px #ffa949;
-}
-
-
-
-/****************************************
- Class Selectors
+ Main styles
 ****************************************/
 
 .main-header {
@@ -79,16 +64,34 @@ a:active {
   font-size: 1.625em; /* 26px/16px */
 }
 
-.primary-content,
-.secondary-content {
-  width: 60%;
+.intro {
+  font-size: 1.25em;
+  line-height: 1.6;
 }
 
 .primary-content,
-.main-header {
+.main-header,
+.main-footer {
   text-align: center;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #ffa949;
 }
 
 .t-border{
   border-top: 2px solid lightgrey; /* Top border styles */
+}
+
+
+
+/****************************************
+ Layout styles
+****************************************/
+
+.primary-content,
+.secondary-content {
+  width: 60%;
 }
