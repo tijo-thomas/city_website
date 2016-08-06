@@ -169,7 +169,18 @@ Floated Columns
   float: right;
 }
 
-.floats {
+.resorts {
   float: left;
 }
 
+
+
+/****************************************
+Float Clearfix
+****************************************/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
