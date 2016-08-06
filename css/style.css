@@ -36,6 +36,7 @@ h3 {
 img {
   max-width: 100%; /* Makes the image scale based on parent element. */
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 ul,
@@ -163,6 +164,7 @@ a:active {
   background-position: center;
   background-size: cover;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, .6);
+  border-radius: 10px;
 }
 
 .arrow {
