@@ -153,3 +153,23 @@ a:active {
 .arrow {
   width: 50px;
 }
+
+
+
+/****************************************
+Floated Columns
+****************************************/
+
+.resorts,
+.tips {
+  width: 46.5%;
+}
+
+.tips {
+  float: right;
+}
+
+.floats {
+  float: left;
+}
+
