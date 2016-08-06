@@ -70,9 +70,12 @@ a:active {
   background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
-  background-image: url("../img/mountains.jpg");
-  background-size: 40%;
-  background-repeat: no-repeat;
+/*  background-image: url("../img/mountains.jpg");*/
+  background-size: cover; /* Scales background to parent. */
+/*  background-repeat: no-repeat;*/
+/*  background-position: center;*/
+  
+  background: #ffa949 url("../img/mountains.jpg") no-repeat center / cover
 }
 
 .title {
