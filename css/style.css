@@ -144,6 +144,10 @@ a:active {
   padding: 18% 24%;
   border-top: 10px solid #ffa949;
   margin: 105px 0 60px;
+  background-image: url("../img/bear.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .arrow {
